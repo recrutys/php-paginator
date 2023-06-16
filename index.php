@@ -24,5 +24,5 @@ $items = new paginator(
 <?= $items->getPageNavHtml() ?>
 
 <?php foreach ($items->result() as $key => $item): ?>
-	Post ID: <?= $item['item_id'] ?> <br />
+	Post ID: <?= $item['item_id'] ?> <br>
 <?php endforeach; ?>
